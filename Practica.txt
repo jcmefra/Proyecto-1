@@ -18,4 +18,7 @@ Tercero > git commit para efectuar los cambios y aplicarlos al repositorio local
 Repositorio remoto: git clone [URL] > git push para subir del repositorio local al remoto
                     git fetch para traer una versión caché del repositorio remoto al local
                     git merge para combinar el archivo del repositorio remoto con el del disco local
-                    git push para sobreescribir el archivo local por el fusionado
+                    git push para sobreescribir el archivo local por el fusionado (merge y fetch combinados)
+
+Después de hacer el commit: git status para ver que esté bien > git log para ver los cambios, git show para revisar en qué cambió
+                            > git diff [tag commit 1] [tag commit 2] para ver la diferencia entre ambos commits
