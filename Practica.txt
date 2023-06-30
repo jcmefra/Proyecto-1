@@ -5,3 +5,17 @@ Se usará para la práctica de Platzi
 Esta es la segunda modificación
 
 Agregamos un nuevo párrafo (Commit 3)
+
+>>>>>>> git status para saber el estado de nuestro archivo, es una buena práctica usarlo siempre antes de hacer cambios
+
+Primero > git init para inicir el directorio de trabajo
+
+    Dentro de este directorio efectúo los cambios con Visual Studio Code, por ejemplo
+
+Segundo > git add . para añadir el directorio o git [archivo.ext] para añadir un solo archivo a preparación o staging
+Tercero > git commit para efectuar los cambios y aplicarlos al repositorio local
+
+Repositorio remoto: git clone [URL] > git push para subir del repositorio local al remoto
+                    git fetch para traer una versión caché del repositorio remoto al local
+                    git merge para combinar el archivo del repositorio remoto con el del disco local
+                    git push para sobreescribir el archivo local por el fusionado
